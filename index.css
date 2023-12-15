@@ -91,3 +91,11 @@ nav a:hover{
     justify-content: center;
     margin: 10px;
 }
+.projeto h1{
+    display: flex;
+    justify-content: center; 
+}
+.projeto h3{
+    display: flex;
+    justify-content: center; 
+}
