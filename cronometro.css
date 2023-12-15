@@ -1,0 +1,25 @@
+body{
+    background: rgb(250, 159, 2);
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+.tudo{
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+
+#segundos, #milesimos{
+    background: black;
+    color: white;
+    font-size: x-large;
+    padding: 10px 10px;
+}
+
+#btn-iniciar, #btn-parar, #btn-reiniciar{
+    background: blue;
+    color: white;
+    font-size: x-large;
+}
