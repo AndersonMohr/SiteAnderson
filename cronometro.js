@@ -9,8 +9,8 @@ if(projeto){
     });
 }
 
-var segundos = 00;
-var milesimos = 00;
+var segundos = '00';
+var milesimos = '00';
 var acrecentarSegundos = document.getElementById("segundos")
 var acresentarMilesimos = document.getElementById("milesimos")
 var botaoIniciar = document.getElementById('btn-iniciar');
@@ -38,9 +38,9 @@ botaoReiniciar.onclick = function(){
 function startTimer (){
     milesimos++;
 
-    if(milesimos <=9){
-        acresentarMilesimos = "0" + milesimos;
-    }
+   // if(milesimos <=9){
+  //      acresentarMilesimos = "0" + milesimos;
+  //  }
 
     if(milesimos > 9){
         acresentarMilesimos.innerHTML = milesimos;
@@ -51,7 +51,8 @@ function startTimer (){
         segundos++;
         acrecentarSegundos.innerHTML = "0" + segundos;
         milesimos = 0;
-        acresentarMilesimos.innerHTML = "0" + 0;
+        acresentarMilesimos.innerHTML = "0" + 1;
+       
     }
 
     if(segundos > 9){
