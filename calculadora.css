@@ -1,0 +1,52 @@
+body {
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+input{
+    text-align: right;
+    background-color: rgb(196, 196, 196);
+    width: 180px;
+    height: 30px;
+
+}
+table{
+    margin: auto;
+    width: 220px;
+    height: 300px;
+
+}
+
+.calcu{
+    background-color: white;
+    cursor: pointer;
+
+
+}
+
+.tabelaInterna{
+    background-color: white;
+    width: 190px;
+    height: 190px;
+}
+
+
+td{
+    border-radius: 5px;
+}
+.zero{
+    color: blue;
+}  
+    
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+}
